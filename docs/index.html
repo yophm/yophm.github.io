@@ -25,6 +25,13 @@
         elements.temp.setData(d);
       });
     }); */
+     var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
   }
   // Set up the controls we see on the screen
   var elements = {
